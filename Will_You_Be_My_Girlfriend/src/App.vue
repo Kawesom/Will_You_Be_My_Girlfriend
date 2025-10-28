@@ -10,7 +10,7 @@
       </swiper-slide>
     </swiper>-->
     <div class="flex max-w-100% min-h-100vh flex-wrap">
-      <video v-for="v of vids" :key="v" height="100%" autoplay loop muted class="lg:w-1/5 w-full">
+      <video v-for="v of vids" :key="v" height="100%" autoplay loop muted playsinline class="lg:w-1/5 w-full">
         <source :src="v" type="video/mp4">
       </video>
     </div>
