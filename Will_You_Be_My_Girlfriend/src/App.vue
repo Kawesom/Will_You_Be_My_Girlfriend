@@ -60,6 +60,7 @@ const makeVidArray = () => {
   }*/ // Same as below
 
   Array.from({ length: 15 }, (_, i) => vids.value.push(`https://github.com/Kawesom/Will_You_Be_My_Girlfriend/raw/refs/heads/main/Will_You_Be_My_Girlfriend/public/media/${i + 30}.mp4`));
+};
 
 const makePicArray = () => {
   /*for (let i = 1; i < 30; i++) {
