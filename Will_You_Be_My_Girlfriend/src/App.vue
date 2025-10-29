@@ -59,8 +59,8 @@ const makeVidArray = () => {
     vids.value.push(`/media/${i}.mp4`);
   }*/ // Same as below
 
-  Array.from({ length: 15 }, (_, i) => vids.value.push(`public/media/${i + 30}.mp4`));
-  //Array.from({ length: 15 }, (_, i) => vids.value.push(`https://github.com/Kawesom/Will_You_Be_My_Girlfriend/raw/refs/heads/main/Will_You_Be_My_Girlfriend/public/media/${i + 30}.mp4`));
+  //Array.from({ length: 15 }, (_, i) => vids.value.push(`public/media/${i + 30}.mp4`));
+  Array.from({ length: 15 }, (_, i) => vids.value.push(`https://github.com/Kawesom/Will_You_Be_My_Girlfriend/raw/refs/heads/main/Will_You_Be_My_Girlfriend/public/media/${i + 30}.mp4`));
 };
 
 const makePicArray = () => {
@@ -68,8 +68,8 @@ const makePicArray = () => {
     pics.value.push(`/media/${i + 1}.jpg`)
   }*/ // Same as below
 
-  Array.from({ length: 29 }, (_, i) => pics.value.push(`public/media/${i + 1}.jpg`));
-  //Array.from({ length: 29 }, (_, i) => pics.value.push(`https://github.com/Kawesom/Will_You_Be_My_Girlfriend/raw/refs/heads/main/Will_You_Be_My_Girlfriend/public/media/${i + 1}.jpg`));
+  //Array.from({ length: 29 }, (_, i) => pics.value.push(`public/media/${i + 1}.jpg`));
+  Array.from({ length: 29 }, (_, i) => pics.value.push(`https://github.com/Kawesom/Will_You_Be_My_Girlfriend/raw/refs/heads/main/Will_You_Be_My_Girlfriend/public/media/${i + 1}.jpg`));
 };
 
 const onSwiper = (swiper) => {
